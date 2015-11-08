@@ -20,11 +20,18 @@
             "role": "Developer"
         }
     ],
+    "repositories":
+    [
+      {
+        "type": "git",
+        "url": "https://github.com/cupit/jose"
+      }
+    ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~4.0",
         "illuminate/http": "~4.0",
-        "namshi/jose": "5.0.*",
+        "namshi/jose": "dev-laravel4",
         "nesbot/carbon": "~1.0"
     },
     "require-dev": {
